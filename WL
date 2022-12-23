@@ -1,0 +1,261 @@
+local Button = Section.NewButton("Raw Venison",function()
+	local items = {
+		['Raw Venison'] = workspace.ItemOnes['Raw Venison'],
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Raw Venison')
+end)
+local Button = Section.NewButton("Raw Porkchop",function()
+	local items = {
+		['Raw Porkchop'] = workspace.ItemOnes['Raw Porkchop'],
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Raw Porkchop')
+end)
+local Button = Section.NewButton("Raw Chicken Leg",function()
+	local items = {
+		['Raw Chicken Leg'] = workspace.ItemOnes['Raw Chicken Leg'],
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Raw Chicken Leg')
+end)
+local Button = Section.NewButton("Raw Chicken Breast",function()
+	local items = {
+		['Raw Chicken Breast'] = workspace.ItemOnes['Raw Chicken Breast'],
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Raw Chicken Breast')
+end)
+local Button = Section.NewButton("Raw Rabbit",function()
+	local items = {
+		['Raw Rabbit'] = workspace.ItemOnes['Raw Rabbit'],
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Raw Rabbit')
+end)
+local Button = Section.NewButton("Raw Beef",function()
+	local items = {
+		['Raw Beef'] = workspace.ItemOnes['Raw Beef'],
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Raw Beef')
+end)
+local Button = Section.NewButton("Duck",function()
+	local items = {
+		['Duck'] = workspace.ItemOnes['Duck'],
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Duck')
+end)
+local Button = Section.NewButton("Football",function()
+	local items = {
+		['Football'] = workspace.ItemOnes['Football'],
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Football')
+end)
+local Button = Section.NewButton("Fish",function()
+	local items = {
+		['fish'] = workspace.ItemOnes['Raw Fish'],
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('fish')
+end)
+local Button = Section.NewButton("Ball",function()
+	local items = {
+		['Ball'] = workspace.ItemOnes['Ball'],
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Ball')
+end)
+local Button = Section.NewButton("Torch",function()
+	local items = {
+		['Torch'] = workspace.GroupedItems.Torch.Handle,
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Torch')
+end)
+local Button = Section.NewButton("Bone",function()
+	local items = {
+		['Bone'] = workspace.GroupedItems.Bone
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Bone')
+end)
+local Button = Section.NewButton("TeddyBear",function()
+	local items = {
+		['TeddyBear'] = workspace.GroupedItems.TeddyBear
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('TeddyBear')
+end)
+local Button = Section.NewButton("Stick",function()
+	local items = {
+		['Stick'] = workspace.GroupedItems.Stick
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Stick')
+end)
+local Button = Section.NewButton("Bunny",function()
+	local items = {
+		['Bunnies'] = workspace.Bunnies
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Bunnies')
+end)
+local Tab = Window.NewTab("Teleports")
+local Section = Tab.NewSection("Teleport")
+local Button = Section.NewButton("Forest Biome",function()
+
+	local args = {
+		[1] = "Spawn",
+		[2] = "Forest Biome"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+
+end)
+local Button = Section.NewButton("Pup Adoption",function()
+	local args = {
+		[1] = "Spawn",
+		[2] = "Adoption"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+
+end)
+local Button = Section.NewButton("Redwood Biome",function()
+	local args = {
+		[1] = "Spawn",
+		[2] = "Redwood Biome"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+end)
+local Button = Section.NewButton("Beach Biome",function()
+	local args = {
+		[1] = "Spawn",
+		[2] = "Beach Biome"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+end)
+local Button = Section.NewButton("School",function()
+	local args = {
+		[1] = "Spawn",
+		[2] = "School"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+end)
+local Button = Section.NewButton("Snow Biome",function()
+	local args = {
+		[1] = "Spawn",
+		[2] = "Snow Biome"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+end)
+local Button = Section.NewButton("Store",function()
+	local args = {
+		[1] = "Spawn",
+		[2] = "Store"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+end)
+local Button = Section.NewButton("Jail",function()
+	local args = {
+		[1] = "Spawn",
+		[2] = "Jail"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+end)
+local Button = Section.NewButton("Camp",function()
+	local args = {
+		[1] = "Spawn",
+		[2] = "Camp"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+end)
+local Button = Section.NewButton("Restaurant",function()
+	local args = {
+		[1] = "Spawn",
+		[2] = "Restaurant"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+end)
+local Button = Section.NewButton("Ice Lake",function()
+	local args = {
+		[1] = "Spawn",
+		[2] = "Ice Lake"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+end)
+local Button = Section.NewButton("Ice Bath",function()
+	local args = {
+		[1] = "Spawn",
+		[2] = "Ice Bath"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+end)
+local Button = Section.NewButton("Cafe",function()
+	local args = {
+		[1] = "Spawn",
+		[2] = "Caf\195\169"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+
+end)
+local Button = Section.NewButton("Medic Centre",function()
+	local args = {
+		[1] = "Spawn",
+		[2] = "Medic Centre"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+end)
+local Button = Section.NewButton("Volcano",function()
+	local args = {
+		[1] = "Spawn",
+		[2] = "Volcano"
+	}
+
+	game:GetService("ReplicatedStorage").MasterKey:FireServer(unpack(args))
+end)
