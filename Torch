@@ -1,0 +1,7 @@
+local items = {
+		['Torch'] = workspace.GroupedItems.Torch.Handle,
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Torch')
