@@ -1,0 +1,7 @@
+local items = {
+		['Raw Porkchop'] = workspace.ItemOnes['Raw Porkchop'],
+	}
+	function getItem(what)
+		return fireclickdetector(items[what]:FindFirstChildOfClass('ClickDetector'))
+	end
+	getItem('Raw Porkchop')
